@@ -5,7 +5,7 @@
       <meta name="description" content="">
       <meta name="author" content="">
       <link rel="icon" href="../../favicon.ico">
-      <title>@section('title') {{{ trans('app.home') }}} @show</title>
+      <title>Task</title>
       <link rel="stylesheet" type="text/css" href="{{ mix('css/app.css') }}">
       <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
