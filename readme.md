@@ -60,7 +60,7 @@ php artisan db:seed
     server {
 	listen 80;
 
-	root /usr/share/nginx/html/team-budget/public; # Project path upto pulblic folder
+	root /usr/share/nginx/html/team-budget/public; ## Project path upto pulblic folder
 
 	index index.php index.html index.htm;
 
@@ -76,16 +76,12 @@ php artisan db:seed
 	    fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
    	    include fastcgi_params;
 	    include snippets/fastcgi-php.conf;
-	}
-	}
-```
-- Then restart the nginx server
+	}}
+	```
 
-    ``` 
+ ## Then restart the nginx server
     sudo service nginx restart
     
-    ```
-
   ## Note:
   - I have used php 7.0 and MongoDB 3.4
   - Driver is mongodb-1.2
