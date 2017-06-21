@@ -80,8 +80,10 @@ php artisan db:seed
 	}
 ```
 - Then restart the nginx server
-    ```
+
+    ``` 
     sudo service nginx restart
+    
     ```
 
   ## Note:
